@@ -31,3 +31,6 @@ http://localhost:8080/products/type/{type} Метод GET - использует
 http://localhost:8080/products/products/id/{id} Метод GET - используется для получения конкретного товара по id
 
 http://localhost:8080/products/products/id/{id} Метод PUT - используется для изменения товара по id, новые данные передаются в теле запроса в JSON формате
+
+[http://localhost:8080/h2-console](http://localhost:8080/h2-console
+) - доступ к веб консоли базы данных H2, пароль - sa
