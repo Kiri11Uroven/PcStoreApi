@@ -1,16 +1,21 @@
 **Описание проекта** 
 ---
+
+
 Сервис для работы с базой данных интернет магазина.
 
-## IDEA (для разработки)
-Установка и запуск
+## **Установка и запуск** 
 
-Склонировать репозиторий: 'git clone https://github.com/Kiri11Uroven/PcStoreApi'
-Открыть код в редакторе
-Запустить проект
+- Склонировать репозиторий: 'git clone https://github.com/Kiri11Uroven/PcStoreApi'
 
-### Api docs
+- Открыть код в редакторе
+
+- Запустить проект
+
+### **Api docs** 
 Swagger: [http://localhost:8080/swagger-ui/index.html](http://localhost:8080/swagger-ui/index.html)
+
+**Конечные точки для работы с API:** 
 
 http://localhost:8080/products Метод POST - используется для добавления нового товара в базу данных, данные передаются в формате JSON 
 например:{
@@ -20,6 +25,7 @@ http://localhost:8080/products Метод POST - используется для
   "price": 5500.99,
   "productProperties": "8tb"
 }
+
 http://localhost:8080/products/type/{type} Метод GET - используется для получения списка товаров по их типу(Hdd,Monitor,Pc..)
 
 http://localhost:8080/products/products/id/{id} Метод GET - используется для получения конкретного товара по id
