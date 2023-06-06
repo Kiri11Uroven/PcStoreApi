@@ -1,4 +1,4 @@
-###### Описание проекта 
+#Описание проекта 
 
 Сервис для работы с базой данных интернет магазина.
 
@@ -10,7 +10,7 @@
 Запустить проект
 
 ### Api docs
-* Swagger: [http://localhost:8080/swagger-ui/index.html](http://localhost:8080/swagger-ui/index.html)
+Swagger: [http://localhost:8080/swagger-ui/index.html](http://localhost:8080/swagger-ui/index.html)
 
 http://localhost:8080/products Метод POST - используется для добавления нового товара в базу данных, данные передаются в формате JSON 
 например:{
