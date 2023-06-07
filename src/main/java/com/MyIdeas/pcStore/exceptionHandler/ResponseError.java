@@ -1,4 +1,4 @@
-package com.MyIdeas.PcStore.exceptionHandler;
+package com.MyIdeas.pcStore.exceptionHandler;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import org.springframework.http.HttpStatus;

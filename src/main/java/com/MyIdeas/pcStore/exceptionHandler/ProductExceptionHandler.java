@@ -1,4 +1,4 @@
-package com.MyIdeas.PcStore.exceptionHandler;
+package com.MyIdeas.pcStore.exceptionHandler;
 
 import org.springframework.http.HttpStatus;
 
@@ -15,6 +15,4 @@ public class ProductExceptionHandler {
     public ResponseError handle(NullProductPropertiesException exception){
         return new ResponseError(exception.getMessage(), HttpStatus.NO_CONTENT);
     }
-
-
 }

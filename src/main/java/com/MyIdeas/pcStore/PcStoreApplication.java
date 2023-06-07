@@ -1,4 +1,4 @@
-package com.MyIdeas.PcStore;
+package com.MyIdeas.pcStore;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

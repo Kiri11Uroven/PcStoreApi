@@ -1,4 +1,4 @@
-package com.MyIdeas.PcStore.exceptionHandler;
+package com.MyIdeas.pcStore.exceptionHandler;
 
 
 public class NullProductPropertiesException extends RuntimeException {
