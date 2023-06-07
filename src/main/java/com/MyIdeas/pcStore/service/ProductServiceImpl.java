@@ -11,7 +11,7 @@ import java.util.Optional;
 @Api("Сервисный класс обработки сущностей товара")
 @org.springframework.stereotype.Service
 public class ProductServiceImpl implements Service {
-    ProductRepository repository;
+   private final ProductRepository repository;
 
     public ProductServiceImpl(ProductRepository repository) {
         this.repository = repository;

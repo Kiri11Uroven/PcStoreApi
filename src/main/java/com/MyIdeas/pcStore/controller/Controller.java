@@ -11,7 +11,7 @@ import java.util.List;
 @Tag(name = "Контроллер", description = "Содержит Endpoint'ы для работы с товарами")
 @RestController
 public class Controller {
-    Service service;
+   private final Service service;
 
     public Controller(Service service) {
         this.service = service;
