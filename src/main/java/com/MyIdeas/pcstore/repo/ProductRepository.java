@@ -1,6 +1,6 @@
-package com.MyIdeas.pcStore.repo;
+package com.MyIdeas.pcstore.repo;
 
-import com.MyIdeas.pcStore.entity.Product;
+import com.MyIdeas.pcstore.entity.Product;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;

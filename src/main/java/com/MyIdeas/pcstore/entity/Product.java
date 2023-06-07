@@ -1,4 +1,4 @@
-package com.MyIdeas.pcStore.entity;
+package com.MyIdeas.pcstore.entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

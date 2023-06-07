@@ -1,7 +1,7 @@
-package com.MyIdeas.pcStore.controller;
+package com.MyIdeas.pcstore.controller;
 
-import com.MyIdeas.pcStore.entity.Product;
-import com.MyIdeas.pcStore.service.Service;
+import com.MyIdeas.pcstore.entity.Product;
+import com.MyIdeas.pcstore.service.Service;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;
 import io.swagger.v3.oas.annotations.tags.Tag;
@@ -10,10 +10,10 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 @Tag(name = "Контроллер", description = "Содержит Endpoint'ы для работы с товарами")
 @RestController
-public class Controller {
+public class ProductController {
    private final Service service;
 
-    public Controller(Service service) {
+    public ProductController(Service service) {
         this.service = service;
     }
 

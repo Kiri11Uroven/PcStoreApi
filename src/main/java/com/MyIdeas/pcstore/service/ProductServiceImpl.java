@@ -1,8 +1,8 @@
-package com.MyIdeas.pcStore.service;
+package com.MyIdeas.pcstore.service;
 
-import com.MyIdeas.pcStore.exceptionHandler.NullProductPropertiesException;
-import com.MyIdeas.pcStore.entity.Product;
-import com.MyIdeas.pcStore.repo.ProductRepository;
+import com.MyIdeas.pcstore.exceptionHandler.NullProductPropertiesException;
+import com.MyIdeas.pcstore.entity.Product;
+import com.MyIdeas.pcstore.repo.ProductRepository;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 

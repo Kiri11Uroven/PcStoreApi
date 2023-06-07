@@ -1,6 +1,6 @@
-package com.MyIdeas.pcStore.service;
+package com.MyIdeas.pcstore.service;
 
-import com.MyIdeas.pcStore.entity.Product;
+import com.MyIdeas.pcstore.entity.Product;
 
 import java.util.List;
 
